@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
 
 const AddBus = () => {
     const [data, setData] = useState({
@@ -33,6 +34,7 @@ const AddBus = () => {
 
 return (
     <div>
+        <Navbar/>
 
         <div className="container">
         <div className="card-body"></div>
@@ -61,7 +63,7 @@ return (
                         </div>
 
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 colxl-6 col-xxl-6">
-                            <button className="btn btn-success" onClick={readValue}>REGISTER </button>
+                            <button className="btn btn-success" onClick={readValue}>ADD </button>
                         </div>
                     </div>
                 </div>

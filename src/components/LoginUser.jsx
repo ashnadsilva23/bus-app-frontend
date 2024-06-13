@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
 
 const Login = () => {
 
@@ -39,6 +40,7 @@ const Login = () => {
     }
     return (
         <div>
+            <Navbar/>
 
             <h1 align="center"><u>Login</u></h1>
             <div className="container">

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
 
 const AddUser = () => {
     const [data, changeData] = useState({
@@ -41,6 +42,7 @@ const AddUser = () => {
     }
     return (
         <div>
+            <Navbar/>
             <h1 align="center"><u>SIGN UP</u></h1><br></br>
             <div className="card">
   <div class="card-body">
