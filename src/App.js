@@ -3,6 +3,7 @@ import './App.css';
 import AddUser from './components/AddUser';
 import LoginUser from './components/LoginUser';
 import AddBus from './components/AddBus';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path='/' element={<LoginUser/>}/>
         <Route path='/reg' element={<AddUser/>}/>
         <Route path='/add' element={<AddBus/>}/>
+        <Route path='/search' element={<Search/>}/>
       </Routes>
       </BrowserRouter>
    
