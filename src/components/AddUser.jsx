@@ -60,7 +60,7 @@ const AddUser = () => {
                                 </div>
                                 <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <label htmlFor="" className="form-label">Phone Number</label>
-                                    <input type="text" className="form-control" name='email' value={data.email} onChange={inputHandler} />
+                                    <input type="text" className="form-control" name='mobile' value={data.mobile} onChange={inputHandler} />
                                 </div>
                                 <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <label htmlFor="" className="form-label">Gender </label>
