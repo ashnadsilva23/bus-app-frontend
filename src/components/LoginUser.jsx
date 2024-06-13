@@ -27,7 +27,7 @@ const Login = () => {
         axios.post("http://localhost:8080/login",data).then(
             (response)=>{
                 console.log(response.data)
-                if (response.data.status=="success") {
+                if (response.data.status=="success") {                 
                     alert("login success")
                     
                 } else {
