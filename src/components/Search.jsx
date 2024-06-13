@@ -34,7 +34,7 @@ const Search = () => {
             (response)=>{
                 console.log(response.data)
                 if (response.data.status=="success") {
-                    alert("SuucessFull Deleted")
+                    alert("Successfully Deleted")
                 } else {
                     alert("Error")
                 }
