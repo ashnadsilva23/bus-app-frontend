@@ -22,10 +22,8 @@ const Login = () => {
 
 
     }
+    
     const readValue = () => {
-
-        
-
         axios.post("http://localhost:8080/login",data).then(
             (response)=>{
                 console.log(response.data)
